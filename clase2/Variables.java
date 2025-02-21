@@ -1,6 +1,6 @@
 public class Variables {
     //Método main
-    public static void main(String[]args){
+    public static void main(String[] args) {
         // Tipos de dato
         // Enteros int, long
         int edad = 25;
