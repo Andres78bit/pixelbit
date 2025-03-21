@@ -1,6 +1,7 @@
 package clase4;
 
 public class Vehiculo {
+
     // Atributos de la clase
     private String marca;
     private String color;
@@ -27,29 +28,35 @@ public class Vehiculo {
     public String getMarca() {
         return marca;
     }
-    //Permite mostrar el objeto
+
+    // Permite mostrar el objeto
     public void setMarca(String marca) {
         this.marca = marca;
     }
 
-    public String toString(){
-        return "Vehiculo { Marca: " + marca + " Color: " + color + " Cilindraje: " + cilindraje 
-        + " chasis: " + chasis + " peso: " + peso + " potencia: " + potencia + "}";
+    public String toString() {
+        return "Vehiculo { Marca: " + marca + " Color: " + color + " Cilindraje: " + cilindraje
+                + " chasis: " + chasis + " peso: " + peso + " potencia: " + potencia + "}";
     }
-    //Métodos de la clase
-    public void acelerar(){
+
+    // Métodos de la clase
+    public void acelerar() {
         System.out.println("Vehiculo acelerando...");
     }
-    public void frenar(){
+
+    public void frenar() {
         System.out.println("Vehiculo frenando...");
     }
-    public void girarIzquierda(){
+
+    public void girarIzquierda() {
         System.out.println("Vehiculo girando izquierda...");
     }
-    public void girarDerecha(){
+
+    public void girarDerecha() {
         System.out.println("Vehiculo girando derecha...");
     }
-    public void retroceder(){
+
+    public void retroceder() {
         System.out.println("Vehiculo retroceder...");
     }
 }
