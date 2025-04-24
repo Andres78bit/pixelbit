@@ -14,16 +14,16 @@ public class punto8 {
         numMenor = 1;
         for (int i = 0; i < a.length; i++) {
             a[i] = scanner.nextInt();
-            if (a[i] > mayor){
+            if (a[i] > mayor) {
                 mayor = a[i];
                 numMayor = 1;
-            } else if (a[i] == mayor){
+            } else if (a[i] == mayor) {
                 numMayor++;
             }
-            if (a[i] < menor){
+            if (a[i] < menor) {
                 menor = a[i];
                 numMenor = 1;
-            } else if (a[i] == menor){
+            } else if (a[i] == menor) {
                 numMenor++;
             }
         }
